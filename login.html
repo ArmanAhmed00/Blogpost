@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<header>
+	<div class="container">
+		<div class="col-div-6">
+			<p class="logo">
+				<a href="#" onclick="window.location.href='home.html';">Blog</a><span>-Post</span>
+			</p>
+		</div>
+		<div class="col-div-6">
+			<ul class="nav">
+				<li><a href="#" onclick="window.location.href='blogs.html';">Blogs</a></li>
+				<li><a href="#" onclick="window.location.href='latest.html';">Latest</a></li>
+				<li><a href="#" onclick="window.location.href='contact.html';">Contact</a></li>
+				<li><button onclick="window.location.href='login.html';">Login</button></a></li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</header>
+<body>
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="img_avatar2.png" alt="Blog-Post" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <button onclick="window.location.href='Sign-in.html';">Sign-in</button></a>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+</body>
+</html>
